@@ -1,0 +1,16 @@
+.box1{
+    
+    border: 10px solid white;
+    background: rgb(229,12,34);
+    background: linear-gradient(90deg, rgba(229,12,34,1) 0%, rgba(233,31,79,1) 14%, rgba(211,54,187,1) 35%, rgba(9,9,121,1) 68%, rgba(55,196,224,1) 98%);
+    height: 300px;
+
+}
+body{
+    border: 2px solid black;
+}
+.box2{
+    padding: 100px 500px;
+    font-size: 80px;
+    color: white;
+}
