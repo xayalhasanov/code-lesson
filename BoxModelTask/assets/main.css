@@ -1,0 +1,56 @@
+
+body{
+    background-color: rgb(234, 217, 217);
+}
+.box1{
+    background-color: white;
+    border-radius: 15px;
+    width: 450px;
+    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-bottom: 10px;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+.box2{
+    padding-top: 30px;
+    margin: 30px;
+    height: 310px;
+    
+}
+.box3{
+    color: purple;
+    background-color: rgb(195, 174, 214);
+    display: inline-block;
+    border-radius: 10px; 
+    
+}
+.bold1{
+    font-size: 40px;
+}
+.bold{
+     border-radius: 15px;
+   
+    padding: 50px 0px;
+    font-size: 25px;
+    margin: 10px;
+
+}
+.box5{
+    font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+.box6{
+    border-radius: 10px;
+    background-color: purple ;
+    width: 200px;
+    height: 60px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+button{font-size: 20px;
+color: white;}
+    
