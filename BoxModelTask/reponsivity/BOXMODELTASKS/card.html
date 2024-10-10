@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+
+        background-color:#756060;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200vh;
+    }
+
+    .blog-card {
+        background-color: white;
+        width: 350px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        border-radius: 8px;
+        text-align: left;
+    }
+
+    .picture{
+        position: relative;
+    }
+
+    .picture img {
+        width: 100%;
+        height: auto;
+    }
+
+    .tag {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        background-color: white;
+        padding: 5px 10px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .content {
+        padding: 15px;
+    }
+
+    .nav {
+        font-size: 12px;
+        color: grey;
+        margin-bottom: 10px;
+    }
+
+    .name{
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .parag {
+        font-size: 14px;
+        color: #666;
+    }
+</style>
+
+<body>
+    <div class="blog-card">
+        <div class="picture">
+            <img src="../Basic E-commerce/img-600x400.webp" alt="Blog Image">
+            <div class="tag">#TRENDING</div>
+        </div>
+        <div class="content">
+            <p class="nav">Aug 31st 2017 | Posted by Marry</p>
+            <h2 class="name">Replenish place days shall earth creeping form i of face created forth</h2>
+            <p class="parag">
+                Us, there called stars moved face winged, them greater. Dry day over days own great. Give he likenes ...
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
