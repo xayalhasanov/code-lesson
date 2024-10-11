@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 70%;
+}
+body{
+    background-color: whitesmoke;
+}
+/* header */
+
+.header{
+    text-align: center;
+    padding: 30px;
+    height: 15vh;
+    margin: 0 auto;
+}
+.header h1{
+    margin-bottom: 15px;
+}
+.button{
+    font-size: 15px;
+    padding: 0 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+/* section  */
+
+/* col-9 */
+
+.section{
+    margin: 0px auto;
+    display: flex;
+}
+.sidebar{
+    margin-right: 50px;
+}
+
+.blog-1{
+    box-shadow: 5px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.blog-2{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.blog-image{
+    width: 100%;
+    height: 100%;
+}
+
+.blog-info{
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+}
+
+.blog-btn{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+
+}
+.blog-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment-1{
+    background-color: black;
+    color: white;
+    width: 30%;
+    padding: 5px;
+}
+.comment-2{
+    background-color: black;
+    color: white;
+    width: 30%;
+    padding: 5px;
+    border-radius: 40%;
+}
+.img{
+width: 100%;
+}
+
+
+
+
+
+/* col-3 */
+
+.name{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.name-info{
+    background-color: white;
+    width: 100%;
+    padding: 15px;
+}
+.name-image{
+    width: 100%;
+}
+.pop-post{
+    background-color: whitesmoke;
+    border: 1px solid darkgrey;
+    padding: 15px;
+}
+
+.posts{
+    margin-bottom: 30px;
+}
+.post{
+    background-color: white;
+    border-bottom: 1px solid darkgray;
+    width: 100%;
+    display: flex;
+    position: relative;
+    padding: 10px;
+    
+}
+.poppost-image{
+    width: 25%;
+}
+.post-info{
+    position: absolute;
+    top: 0;
+    left: 35%;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+
+.head-tag{
+    width: 100%;
+    background-color: whitesmoke;
+    border: 1px solid darkgray;
+    padding: 20px;
+}
+
+.tags{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 5px;
+
+}
+
+.tags>p{
+    padding: 3px;
+    gap: 5px;
+    background-color: rgb(231, 226, 226);
+}
+
+
+/* footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.footer{
+    background-color: dimgray;
+    height: 15vh;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+
+
