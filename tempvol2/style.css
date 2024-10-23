@@ -9,7 +9,7 @@
 body{
     background-color: whitesmoke;
 }
-/* header */
+
 
 .header{
     text-align: center;
@@ -20,7 +20,12 @@ body{
 .header h1{
     margin-bottom: 15px;
 }
-.button{
+.head{
+    display: flex;
+    justify-content: center;align-items: center;
+    gap: 5px;
+}
+.btn{
     font-size: 15px;
     padding: 0 10px;
     background-color: black;
@@ -28,9 +33,8 @@ body{
     border: none;
 }
 
-/* section  */
 
-/* col-9 */
+
 
 .section{
     margin: 0px auto;
@@ -63,7 +67,7 @@ body{
 }
 
 .blog-btn{
-    border: 1px solid black;
+    font-size: 30;
     background-color: white;
     color: black;
     padding: 10px 20px;
@@ -75,17 +79,28 @@ body{
 }
 
 .comment-1{
-    background-color: black;
-    color: white;
+   
     width: 30%;
     padding: 5px;
+    display: flex;
+}
+.number1{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
 }
 .comment-2{
-    background-color: black;
-    color: white;
+    /* background-color: black; */
+    /* color: white; */
     width: 30%;
     padding: 5px;
-    border-radius: 40%;
+    
+    display: flex;
+}
+.number2{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
 }
 .img{
 width: 100%;
@@ -95,7 +110,7 @@ width: 100%;
 
 
 
-/* col-3 */
+
 
 .name{
     width: 100%;
@@ -109,7 +124,7 @@ width: 100%;
 .name-image{
     width: 100%;
 }
-.pop-post{
+.popular_post{
     background-color: whitesmoke;
     border: 1px solid darkgrey;
     padding: 15px;
@@ -127,7 +142,7 @@ width: 100%;
     padding: 10px;
     
 }
-.poppost-image{
+.popular_post-image{
     width: 25%;
 }
 .post-info{
@@ -163,7 +178,7 @@ width: 100%;
 }
 
 
-/* footer */
+
 
 
 
