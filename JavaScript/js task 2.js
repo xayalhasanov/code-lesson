@@ -1,4 +1,6 @@
 //    d
+
+//  muellim komp teze aldigima gore pushu gec etdim uzrlu sayin bal kesmiyin:)
  let eded = prompt("3 reqemli eded  daxil edin:");
 
  let r1 = parseInt(eded[0]);
