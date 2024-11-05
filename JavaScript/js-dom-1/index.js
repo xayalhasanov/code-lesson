@@ -23,7 +23,6 @@ for (let i = 0; i < 3; i++) {
     cardDiv = document.createElement("div");
     cardDiv.className = "card";
 
-    // Hər kart üçün yeni elementlər yaradılır
     let cardImg = document.createElement("img");
     cardImg.className = "cardImg";
     cardImg.setAttribute("src", "https://imgs.search.brave.com/OeliBnG52pNNXdgwSO4HmYpBXJYaEuhqTwwgl7F3DYg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/dG9vbHN0dWQuaW8v/MjQweDI0MC8zYjU5/OTgvZmZmJnRleHQ9/Kzk2MHg5NjAr.jpeg");
