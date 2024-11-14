@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/style.css">
+    <!-- JS -->
+    
+   
+    <title>holiday task</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-first ">
+            <div class="icons">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="links">
+                <ul>
+                    <li><a href="#">Sponsor</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-second">
+            <div class="logo">
+                <h3>LOGO</h3>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <select>
+                        <option value="option1"><a href="#">Adoption</a></option>
+                        <option value="option2"><a href="#">Waiting Children</a></option>
+                        <option value="option3"><a href="#">How to Adopt</a></option>
+                    </select>
+                    <li><a href="#">Succes</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="sliders-section">
+            <div class="container">
+                <div class="arrow l" onclick="prevSlide()">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+                <div class="slide slide-1">
+                    <div class="caption">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit,
+                            necessitatibus,
+                            soluta sit quam minima expedita atque corrupti reiciendis.</p>
+                        <a href="#">Adopt Him Now!</a>
+                    </div>
+                </div>
+                <div class="slide slide-2">
+                    <div class="caption">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit,
+                            necessitatibus,
+                            soluta sit quam minima expedita atque corrupti reiciendis.</p>
+                        <a href="#">Adopt Him Now!</a>
+                    </div>
+                </div>
+                <div class="arrow r" onclick="nextSlide()">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </section>
+
+        <section id="accordion">
+            <div class="card" >
+                <img src="https://imgs.search.brave.com/_F8v1YqsECuVazfZQpRzc6STcD2xyN4f7ZzwiHXskY8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzhiL2M5/L2Y2LzhiYzlmNmVi/MjBhYzUwMjZmN2E4/ZmMyOGU0OGNmYWI1/LmpwZw"
+                    alt="image" ">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit enim cumque qui iure. Adipisci
+                    voluptate nostrum laborum! Animi tempora inventore autem eveniet repudiandae similique expedita
+                    voluptates, consequatur in voluptatum minima?
+
+                    Quos</p>
+            </div>
+
+            <div class="accordionDiv ">
+                <button class="accordion">1.Getting Started</button>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <button class="accordion">2.Getting Approved</button>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <button class="accordion">3.Getting Approved</button>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <button class="accordion">4.Getting Approved</button>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <button class="accordion">5.Getting Approved</button>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+              
+            </div>
+        </section>
+
+        <section class="waiting-children-section">
+
+            <div class="form-container">
+    <h2>card form</h2>
+    <form onsubmit="addChild(e)">
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+
+        
+        <input type="number" id="year" name="year" placeholder="Enter year" min="0" max="18">
+
+        <input type="text" id="img" name="img" placeholder="Enter image URL as string">
+
+        <button type="submit" onclick="addChild()">Submit</button>
+    </form>
+</div>
+            <div class="section-header">
+                <h2>WAITING CHILDREN</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodi unde impedit, necessitatibus, soluta
+                    sit quam minima expedita atque corrupti reiciendis.</p>
+                <button class="cta-button">Find More Waiting Children</button>
+            </div>
+
+            <div class="children-carousel" id="carousel">
+                
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <h2>GET NEWS & UPDATES</h2>
+            <div class="newsletter-form">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <button>Subscribe</button>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>ABOUT</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus et dolor blanditiis consequuntur ex voluptates perspiciatis omnis unde minima expedita.</p>
+                <a href="#">Learn More</a>
+            </div>
+    
+            <div class="footer-column">
+                <h3>CONTACT & ADDRESS</h3>
+                <p>A: Baku</p>
+                <p>T: 994857845</p>
+                <p>E: info@email.com</p>
+            </div>
+    
+            <div class="footer-column">
+                <h3>QUICK LINKS</h3>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Success Stories</a></li>
+                    <li><a href="#">Waiting Children</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Disclaimers</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-column">
+                <h3>SOCIAL</h3>
+                <div class="social-icons">
+                    <a href="#">Twitter</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Instagram</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p> ©2024 All rights reserved | Made by sanhan</p>
+        </div>
+    </footer>
+
+    <script  src="index.js"></script>
+
+</body>
+
+</html>
